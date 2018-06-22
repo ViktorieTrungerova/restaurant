@@ -1,0 +1,25 @@
+{
+  "name": "zkusebni-eshop",
+  "version": "0.0.1",
+  "devDependencies": {},
+  "main": "gruntfile.js",
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-watch": "^5.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://vikinka@bitbucket.org/vikinka/zkusebni-eshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/vikinka/zkusebni-eshop.git#readme",
+  "description": ""
+}
