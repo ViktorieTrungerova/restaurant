@@ -1,0 +1,18 @@
+.about-us{
+  background-image: url("../../images/content/pexels-photo.jpeg");
+  @include bg-settings;
+  width: 100%;
+  min-height: 700px;
+
+  .about-us--wrapper{
+    background-color: $white;
+    width: 100%;
+
+    h2{
+      text-align: center;
+      color: $color-buttons-text;
+      font-family: 'Dancing Script', cursive;
+      font-size: 80px;
+    }
+  }
+}

@@ -1,6 +1,15 @@
 /**
  * Helper classes with responsive options
  */
+
+.big-text{
+  float: left;
+  font-size: 80px;
+  font-weight: 700;
+  margin-bottom: -4px;
+  margin-right: 10px;
+  line-height: 1;
+}
 .bold{
   font-weight: 700;
 }

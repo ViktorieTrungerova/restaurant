@@ -1,0 +1,18 @@
+.btn--reservation{
+  height: 44px;
+  color: $white;
+  background: $color-buttons !important;
+  border-color: $color-buttons !important;
+  border-radius:0;
+
+  &:hover{
+    background: $white !important;
+    color: $color-buttons-text !important;
+    border-color: $white !important;
+    transition: .9s ease;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $color-buttons !important;
+  }
+}

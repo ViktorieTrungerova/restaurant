@@ -1,0 +1,6 @@
+@mixin bg-settings{
+  background-repeat: no-repeat, repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size:cover;
+}

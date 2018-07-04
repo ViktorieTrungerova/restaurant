@@ -1,0 +1,104 @@
+.change{
+    position: fixed;
+    top: 0;
+    background-color: $color-overlay;
+}
+.top-area{
+    background-image: url("../../images/header/cooking.jpg");
+    @include bg-settings;
+    width: 100%;
+    min-height: 700px;
+
+    &--overlay{
+        width: 100%;
+        min-height: 700px;
+        background-color: $color-overlay;
+    }
+
+    .header--nav-main{
+        width: 100%;
+
+        .navbar-toggler{
+            border: 1px solid $white;
+
+            .navbar-toggler-icon{
+                color: $white;
+            }
+        }
+    }
+
+    #nav-main__collapse{
+        font-size: 14px;
+        font-weight: bold;
+
+        .nav-item{
+        border-top:3px solid transparent;
+        }
+
+        .active{
+            border-top: 3px solid $color-buttons;
+
+            a{
+                color: $color-buttons-text;
+            }
+        }
+        ul li a{
+            color: $white;
+
+            &:hover{
+                color: $color-buttons-text;
+                transition: 0.5s ease;
+            }
+        }
+
+
+    }
+}
+
+.header--introduction{
+
+}
+
+
+.header--nav-contact{
+    width: 100%;
+    border-bottom: 1px solid $color-line;
+    max-height: 45px;
+    font-size: 14px;
+
+    .navbar--list{
+        li {
+            height: 43px;
+
+
+            a{
+              color: $white;
+            }
+
+            &:hover {
+                background: $white !important;
+                border-color: $white !important;
+                transition: .9s ease;
+                a{
+                    color: $color-buttons-text !important;
+                }
+            }
+        }
+    }
+
+    .navbar--contact-list{
+        li a {
+            color: $white;
+        }
+    }
+}
+
+/**
+ * Media header
+ */
+@media only screen and (max-width: 767px) {
+
+    .navbar-hidden-item{
+        display: none;
+    }
+}

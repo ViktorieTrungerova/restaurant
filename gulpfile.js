@@ -20,5 +20,6 @@ gulp.task('cssmin', function () {
 });
 
 gulp.task('watch',function () {
-    gulp.watch('www/assets/css/**/*.scss', ['sass', 'cssmin']);
+    gulp.watch('www/assets/css/**/*.scss', ['sass']);
+    gulp.watch('www/assets/css/*.css', ['cssmin']);
 });
