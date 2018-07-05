@@ -1,0 +1,27 @@
+.footer{
+  background-image: url("../../images/footer/photo-45.jpeg");
+  @include bg-settings;
+  width: 100%;
+  min-height: 500px;
+  color: $white;
+
+  &--overlay{
+    width: 100%;
+    min-height: 500px;
+    background-color: $color-overlay-darker;
+
+    .footer__list{
+      li a {
+        color: $white;
+        font-size: 20px;
+
+        &:hover{
+          color: $color-buttons-text;
+          transition: 0.9s ease;
+        }
+      }
+    }
+  }
+
+
+}

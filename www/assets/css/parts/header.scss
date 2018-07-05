@@ -16,6 +16,7 @@
     }
 
     .header--nav-main{
+        z-index: 999;
         width: 100%;
 
         .navbar-toggler{
@@ -54,11 +55,6 @@
 
     }
 }
-
-.header--introduction{
-
-}
-
 
 .header--nav-contact{
     width: 100%;

@@ -4,3 +4,12 @@
   background-attachment: fixed;
   background-size:cover;
 }
+
+
+@mixin h2-title{
+  text-align: center;
+  color: $color-buttons-text;
+  font-family: 'Dancing Script', cursive;
+  font-size: 80px;
+}
+

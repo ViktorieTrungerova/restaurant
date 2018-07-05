@@ -16,3 +16,47 @@
     box-shadow: 0 0 0 0.2rem $color-buttons !important;
   }
 }
+
+.btn--order{
+  height: 44px;
+  color: $color-buttons-text;
+  background: $white !important;
+  border-color: $color-buttons !important;
+  border-radius:0;
+
+  &:hover{
+    background: $color-buttons !important;
+    color: $white !important;
+    border-color: $color-buttons !important;
+    transition: .9s ease;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $color-buttons !important;
+  }
+}
+
+
+.btn--menu{
+  color: $black;
+  background: $white !important;
+  border-color: $black !important;
+  border-radius:0;
+
+  &:hover{
+    background: $color-buttons !important;
+    color: $white !important;
+    border-color: $color-buttons !important;
+    transition: .9s ease;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $color-buttons !important;
+  }
+
+  &:active{
+    background: $color-buttons !important;
+    color: $white !important;
+    border-color: $color-buttons !important;
+  }
+}

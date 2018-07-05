@@ -2,7 +2,9 @@ $white: rgb(245,245,245);
 $black: #000000;
 $color-buttons-text: #ca3d26;
 
-$color-buttons: #ca3d26;
+$color-buttons: $color-buttons-text;
 $color-text: #555555;
 $color-line: rgba($white, 0.4);
 $color-overlay: rgba($black,0.6);
+$color-overlay-darker: rgba($black,0.8);
+$color-border: #ddd;

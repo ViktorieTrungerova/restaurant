@@ -4,6 +4,7 @@ var sass = require('gulp-sass');
 var cssmin = require('gulp-cssmin');
 var concat = require('gulp-concat');
 var watch = require('gulp-watch');
+var gulpCopy = require('gulp-copy');
 
 gulp.task('sass', function(){
     return gulp.src('www/assets/css/style.scss')
@@ -23,3 +24,5 @@ gulp.task('watch',function () {
     gulp.watch('www/assets/css/**/*.scss', ['sass']);
     gulp.watch('www/assets/css/*.css', ['cssmin']);
 });
+
+
