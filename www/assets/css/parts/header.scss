@@ -15,18 +15,7 @@
         background-color: $color-overlay;
     }
 
-    .header--nav-main{
-        z-index: 999;
-        width: 100%;
 
-        .navbar-toggler{
-            border: 1px solid $white;
-
-            .navbar-toggler-icon{
-                color: $white;
-            }
-        }
-    }
 
     #nav-main__collapse{
         font-size: 14px;
@@ -56,38 +45,74 @@
     }
 }
 
-.header--nav-contact{
-    width: 100%;
-    border-bottom: 1px solid $color-line;
-    max-height: 45px;
-    font-size: 14px;
+.header{
+    &--nav-contact{
+        width: 100%;
+        border-bottom: 1px solid $color-line;
+        max-height: 45px;
+        font-size: 14px;
 
-    .navbar--list{
-        li {
-            height: 43px;
+        .list{
+            li {
+                height: 43px;
 
 
-            a{
-              color: $white;
-            }
-
-            &:hover {
-                background: $white !important;
-                border-color: $white !important;
-                transition: .9s ease;
                 a{
-                    color: $color-buttons-text !important;
+                    color: $white;
+                }
+
+                &:hover {
+                    background: $white !important;
+                    border-color: $white !important;
+                    transition: .9s ease;
+                    a{
+                        color: $color-buttons-text !important;
+                    }
                 }
             }
         }
+
+        .contact-list{
+            li a {
+                color: $white;
+            }
+        }
     }
 
-    .navbar--contact-list{
-        li a {
-            color: $white;
+    &--nav-main{
+        z-index: 999;
+        width: 100%;
+
+        .navbar-toggler{
+            border: 1px solid $white;
+
+            .navbar-toggler-icon{
+                color: $white;
+            }
+        }
+    }
+
+    &--introduction{
+        .pogoSlider{
+            min-height: 700px;
+
+            .pogoSlider-slide{
+                h2{
+                    text-align: center;
+                    color: $white;
+                    font-family: 'Dancing Script', cursive;
+                    font-size: 80px;
+                }
+            }
+
+            .pogoSlider-nav{
+                display: none !important;
+            }
         }
     }
 }
+
+
 
 /**
  * Media header

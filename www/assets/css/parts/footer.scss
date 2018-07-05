@@ -21,7 +21,24 @@
         }
       }
     }
+
+    .back-to-top{
+      background-color: $color-buttons;
+      width: 60px;
+      height: 60px;
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      z-index: 10000;
+
+      a{
+        color: $white;
+
+        &:hover{
+          color: $white;
+        }
+      }
+    }
+
   }
-
-
 }

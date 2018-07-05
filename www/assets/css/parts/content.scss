@@ -25,7 +25,7 @@
     width: 100%;
   }
 
-  .offer--overlay{
+  &--overlay{
     min-height: 600px;
     background-color: $color-overlay-darker;
   }
@@ -34,7 +34,7 @@
       @include h2-title;
     }
 
-      .offer__special-package-detail{
+      &__special-package-detail{
         background-color: $white;
         top:60px;
         width: 100%;

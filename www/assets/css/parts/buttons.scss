@@ -60,3 +60,27 @@
     border-color: $color-buttons !important;
   }
 }
+
+.btn--slider{
+  color: $white;
+  background: transparent !important;
+  border-color: $white !important;
+  border-radius:0;
+
+  &:hover{
+    background: $color-buttons !important;
+    color: $white !important;
+    border-color: $color-buttons !important;
+    transition: .9s ease;
+  }
+
+  &:focus {
+    box-shadow: 0 0 0 0.2rem $color-buttons !important;
+  }
+
+  &:active{
+    background: $color-buttons !important;
+    color: $white !important;
+    border-color: $color-buttons !important;
+  }
+}
