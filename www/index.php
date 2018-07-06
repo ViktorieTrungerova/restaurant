@@ -83,7 +83,7 @@
                         </button>
 
                         <div class="collapse navbar-collapse padding-left-bigger-md" id="nav-main__collapse">
-                            <ul class="navbar-nav mr-0 padding-left-bigger-md">
+                            <ul class="navbar-nav mr-0 padding-left-bigger-md margin-top">
                                 <li class="nav-item active padding">
                                     <a class="nav-link" href="#" data-scroll_to="#home">DOMŮ<span class="sr-only">(current)</span></a>
                                 </li>
@@ -141,7 +141,7 @@
     <!--end header-->
     <!--content-->
     <div class="content">
-        <div id="about" class="about-us padding-top-bigger padding-bottom">
+        <div id="about" class="about-us padding-bottom">
             <div class="container">
                     <div class="about-us--wrapper padding padding-bottom-bigger">
                         <h2 class="margin-bottom-big padding-top">

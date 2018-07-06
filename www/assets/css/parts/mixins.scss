@@ -12,3 +12,8 @@
   font-size: 80px;
 }
 
+@mixin fullHeight {
+  min-height: 100%!important;
+  height: 100%;
+}
+
