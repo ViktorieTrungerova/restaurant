@@ -7,11 +7,9 @@
     background-image: url("../../images/header/cooking.jpg");
     @include bg-settings;
     width: 100%;
-    min-height: 1000px;
 
     &--overlay{
         width: 100%;
-        min-height: 1000px;
         background-color: $color-overlay;
     }
 
