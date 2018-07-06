@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="no-index,no-follow">
+    <meta name="description" content="Dovolte nám, abychom Vás přivítali v naší restauraci.">
+    <meta name="keywords" content="restaurace,rezervace">
+    <meta name="author" content="www.viktorietrungerova.cz">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
@@ -108,34 +112,33 @@
                     </nav>
                 </div>
             </div>
-            <div class="header--introduction text-center">
-                <div class="pogoSlider navbar-hidden-item">
-                    <div class="pogoSlider-slide padding-top-big" data-transition="slideOverLeft" data-duration="1000">
-                        <h2 class="pogoSlider-slide-element margin-top-bigger" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
-                            Welcome To<br>Restaurant
-                        </h2>
-                        <a href="#">
-                            <button type="button" class="btn btn--slider padding-right-big padding-left-big">
-                                BOOK NOW
-                            </button>
-                        </a>
+            <div class="header--introduction text-center padding-left-big padding-right-big">
+                    <div class="pogoSlider navbar-hidden-item">
+                        <div class="pogoSlider-slide padding-top-bigger" data-transition="slideOverLeft" data-duration="1000">
+                            <h1 class="pogoSlider-slide-element margin-top-bigger padding-top-bigger" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
+                                Welcome To<br>Restaurant
+                            </h1>
+                            <a href="#" data-scroll_to="#book-table">
+                                <button type="button" class="btn btn--slider padding-right-big padding-left-big">
+                                    BOOK NOW
+                                </button>
+                            </a>
+                        </div>
+                        <div class="pogoSlider-slide padding-top-bigger" data-transition="fold" data-duration="1000">
+                            <h1 class="pogoSlider-slide-element margin-top-bigger margin-bottom-bigger padding-top-bigger" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
+                                Our menus
+                            </h1>
+                            <a href="#" data-scroll_to="#menu">
+                                <button type="button" class="btn btn--slider padding-right-big padding-left-big">
+                                    TODAY'S MENU
+                                </button>
+                            </a>
+                        </div>
                     </div>
-                    <div class="pogoSlider-slide" data-transition="fold" data-duration="1000">
-                        <h2 class="pogoSlider-slide-element margin-top-bigger margin-bottom-bigger" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
-                            Our menus
-                        </h2>
-                        <a href="#" data-scroll_to="#menu">
-                            <button type="button" class="btn btn--slider padding-right-big padding-left-big">
-                                TODAY'S MENU
-                            </button>
-                        </a>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
     <!--end header-->
-
     <!--content-->
     <div class="content">
         <div id="about" class="about-us padding-top-bigger padding-bottom">
@@ -194,7 +197,7 @@
                 </div>
             </div>
         </div>
-        <div id="menu" class="menu padding-top-bigger padding-bottom-bigger">
+        <div id="menu" class="menu padding-top-bigger padding-bottom">
             <div class="container">
                 <h2 class="text-center">
                     Today's Menu
@@ -236,10 +239,10 @@
                                         <img data-src="images/content/menu_1.jpg" alt="">
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
-                                        <h4>
+                                        <h3>
                                             Cupcake Recipes
                                             <span class="menu-price float-right">$20.00</span>
-                                        </h4>
+                                        </h3>
                                         <table class="table table-responsive">
                                             <tbody>
                                             <tr>
@@ -284,10 +287,10 @@
                                         <img data-src="images/content/menu_2.jpg" alt="">
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
-                                        <h4>
+                                        <h3>
                                             Cupcake Recipes
                                             <span class="menu-price float-right">$20.00</span>
-                                        </h4>
+                                        </h3>
                                         <table class="table table-responsive">
                                             <tbody>
                                             <tr>
@@ -332,10 +335,10 @@
                                         <img data-src="images/content/menu_3.jpg" alt="">
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
-                                        <h4>
+                                        <h3>
                                             Cupcake Recipes
                                             <span class="menu-price float-right">$20.00</span>
-                                        </h4>
+                                        </h3>
                                         <table class="table table-responsive">
                                             <tbody>
                                             <tr>
@@ -380,10 +383,10 @@
                                         <img data-src="images/content/menu_4.jpg" alt="">
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
-                                        <h4>
+                                        <h3>
                                             Cupcake Recipes
                                             <span class="menu-price float-right">$20.00</span>
-                                        </h4>
+                                        </h3>
                                         <table class="table table-responsive">
                                             <tbody>
                                             <tr>
@@ -428,10 +431,10 @@
                                         <img data-src="images/content/menu_5.jpg" alt="">
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
-                                        <h4>
+                                        <h3>
                                             Cupcake Recipes
                                             <span class="menu-price float-right">$20.00</span>
-                                        </h4>
+                                        </h3>
                                         <table class="table table-responsive">
                                             <tbody>
                                             <tr>
@@ -476,10 +479,10 @@
                                         <img data-src="images/content/menu_6.jpg" alt="">
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
-                                        <h4>
+                                        <h3>
                                             Cupcake Recipes
                                             <span class="menu-price float-right">$20.00</span>
-                                        </h4>
+                                        </h3>
                                         <table class="table table-responsive">
                                             <tbody>
                                             <tr>
@@ -653,11 +656,11 @@
                       </ul>
                     </div>
                 </div>
-            </div>
-            <div class="back-to-top scrollup padding" style="display: none">
-                <a href="#">
-                    <i class="fas fa-arrow-up"></i>
-                </a>
+                <div class="back-to-top scrollup padding" style="display: none">
+                    <a href="#">
+                        <i class="fas fa-arrow-up"></i>
+                    </a>
+                </div>
             </div>
         </div>
     </footer>
@@ -675,11 +678,5 @@
 <script src="assets/js/lazy-loading-img.js" ></script>
 <script src="assets/js/scroll-to.js" ></script>
 <script src="assets/libs/pogo-slider/jquery.pogo-slider.min.js" ></script>
-
-<script>
-    var mySlider = $('.pogoSlider').pogoSlider({
-        pauseOnHover: false
-    }).data('plugin_pogoSlider');
-</script>
-
+<script src="assets/js/pogoSlider.js" ></script>
 </html>
