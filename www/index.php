@@ -28,15 +28,15 @@
                         <div class="col-md-7 col-lg-6 margin-top-small no-padding-right-sm navbar-hidden-item">
                             <ul class="contact-list list-unstyled list-inline ">
                                 <li class="inline-block">
-                                    <a href="#">
+                                    <a href="mailto:">
                                         <i class="far fa-envelope"></i>
                                         email: info@restaurant.cz
                                     </a>
                                 </li>
                                 <li class="inline-block margin-left">
-                                    <a href="#">
+                                    <a href="tel:+420 123 456">
                                         <i class="fas fa-phone"></i>
-                                        Telephone: +420 123 456
+                                        Telefon: +420 123 456
                                     </a>
                                 </li>
                             </ul>
@@ -61,7 +61,7 @@
                                 <li class="inline-block">
                                     <a href="#">
                                         <button type="button" class="btn btn-primary btn--reservation padding-right padding-left">
-                                            BOOK A TABLE
+                                            REZERVACE
                                         </button>
                                     </a>
                                 </li>
@@ -85,22 +85,22 @@
                         <div class="collapse navbar-collapse padding-left-bigger-md" id="nav-main__collapse">
                             <ul class="navbar-nav mr-0 padding-left-bigger-md">
                                 <li class="nav-item active padding">
-                                    <a class="nav-link" href="#" data-scroll_to="#home">HOME<span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#" data-scroll_to="#home">DOMŮ<span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item padding-top padding-bottom padding-left">
-                                    <a class="nav-link" href="#" data-scroll_to="#about">ABOUT US</a>
+                                    <a class="nav-link" href="#" data-scroll_to="#about">O NÁS</a>
                                 </li>
                                 <li class="nav-item padding-top padding-bottom padding-left">
-                                    <a class="nav-link" href="#" data-scroll_to="#offer">OFFER</a>
+                                    <a class="nav-link" href="#" data-scroll_to="#offer">NABÍDKA</a>
                                 </li>
                                 <li class="nav-item padding-top padding-bottom padding-left">
                                     <a class="nav-link" href="#" data-scroll_to="#menu">MENU</a>
                                 </li>
                                 <li class="nav-item padding-top padding-bottom padding-left">
-                                    <a class="nav-link" href="#" data-scroll_to="#gallery">GALLERY</a>
+                                    <a class="nav-link" href="#" data-scroll_to="#gallery">GALERIE</a>
                                 </li>
                                 <li class="nav-item padding-top padding-bottom padding-left">
-                                    <a class="nav-link" href="#" data-scroll_to="#contact">CONTACT</a>
+                                    <a class="nav-link" href="#" data-scroll_to="#contact">KONTAKT</a>
                                 </li>
                                 <li class="nav-item padding-top padding-bottom padding-left">
                                     <a class="nav-link" href="#">
@@ -116,21 +116,21 @@
                     <div class="pogoSlider navbar-hidden-item">
                         <div class="pogoSlider-slide padding-top-bigger" data-transition="slideOverLeft" data-duration="1000">
                             <h1 class="pogoSlider-slide-element margin-top-bigger padding-top-bigger" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
-                                Welcome To<br>Restaurant
+                                 Vítejte v<br>Restaurant
                             </h1>
                             <a href="#" data-scroll_to="#book-table">
                                 <button type="button" class="btn btn--slider padding-right-big padding-left-big">
-                                    BOOK NOW
+                                    REZERVACE
                                 </button>
                             </a>
                         </div>
                         <div class="pogoSlider-slide padding-top-bigger" data-transition="fold" data-duration="1000">
                             <h1 class="pogoSlider-slide-element margin-top-bigger margin-bottom-bigger padding-top-bigger" data-in="slideDown" data-out="slideUp" data-duration="750" data-delay="500">
-                                Our menus
+                                Naše Menu
                             </h1>
                             <a href="#" data-scroll_to="#menu">
                                 <button type="button" class="btn btn--slider padding-right-big padding-left-big">
-                                    TODAY'S MENU
+                                    DNEŠNÍ MENU
                                 </button>
                             </a>
                         </div>
@@ -144,8 +144,8 @@
         <div id="about" class="about-us padding-top-bigger padding-bottom">
             <div class="container">
                     <div class="about-us--wrapper padding padding-bottom-bigger">
-                        <h2 class="margin-bottom-big">
-                            Our Story
+                        <h2 class="margin-bottom-big padding-top">
+                            O nás
                         </h2>
                         <div class="row">
                             <div class="col- col-sm-6">
@@ -170,8 +170,8 @@
         <div id="offer" class="offer">
             <div class="offer--overlay padding-top-bigger padding-bottom">
                 <div class="container">
-                        <h2 class="margin-bottom-big">
-                            Special Package
+                        <h2 class="margin-bottom-big padding-top">
+                            Speciální balíček
                         </h2>
                         <div class="row">
                                 <div class="col- col-sm-6">
@@ -180,7 +180,7 @@
                             <div class="col- col-sm-6">
                                 <div class="offer__special-package-detail no-margin padding-big padding-top-bigger">
                                     <h3>
-                                        40% off for hamburger- Wed, Thu, Friday only
+                                        40% sleva na hamburger- jen v Po,Út,St
                                     </h3>
                                     <p>
                                         Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, v
@@ -188,7 +188,7 @@
                                     </p>
                                     <a href="#">
                                     <button type="button" class="btn btn-primary btn--order padding-right-big padding-left-big">
-                                        ORDER NOW
+                                        OBJEDNAT
                                     </button>
                                     </a>
                                 </div>
@@ -199,34 +199,34 @@
         </div>
         <div id="menu" class="menu padding-top-bigger padding-bottom">
             <div class="container">
-                <h2 class="text-center">
-                    Today's Menu
+                <h2 class="text-center padding-top">
+                    Dnešní Menu
                 </h2>
                     <div class="menu--buttons text-center margin-top-big">
                     <ul class="list-inline list-unstyled">
                         <li class="inline-block margin-right-small">
                                 <button type="button" class="btn btn-primary btn--menu active" data-filter="all">
-                                   ALL
+                                   VŠE
                                 </button>
                         </li>
                         <li class="inline-block margin-right-small">
                                 <button type="button" class="btn btn-primary btn--menu" data-filter=".breakfast">
-                                   BREAKFAST
+                                   SNÍDANĚ
                                 </button>
                         </li>
                         <li class="inline-block margin-right-small">
                                 <button type="button" class="btn btn-primary btn--menu" data-filter=".lunch">
-                                   LUNCH
+                                   OBĚD
                                 </button>
                         </li>
                         <li class="inline-block margin-right-small margin-top-xs">
                                 <button type="button" class="btn btn-primary btn--menu" data-filter=".dinner">
-                                   DINNER
+                                   VEČEŘE
                                 </button>
                         </li>
                         <li class="inline-block margin-top-xs">
                                 <button type="button" class="btn btn-primary btn--menu" data-filter=".cofee">
-                                   COFFE
+                                   CAFE
                                 </button>
                         </li>
                     </ul>
@@ -240,8 +240,8 @@
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
                                         <h3>
-                                            Cupcake Recipes
-                                            <span class="menu-price float-right">$20.00</span>
+                                            Recept
+                                            <span class="menu-price float-right">20.00 Kč</span>
                                         </h3>
                                         <table class="table table-responsive">
                                             <tbody>
@@ -288,8 +288,8 @@
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
                                         <h3>
-                                            Cupcake Recipes
-                                            <span class="menu-price float-right">$20.00</span>
+                                            Recept
+                                            <span class="menu-price float-right">20.00 Kč</span>
                                         </h3>
                                         <table class="table table-responsive">
                                             <tbody>
@@ -336,8 +336,8 @@
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
                                         <h3>
-                                            Cupcake Recipes
-                                            <span class="menu-price float-right">$20.00</span>
+                                            Recept
+                                            <span class="menu-price float-right">20.00 Kč</span>
                                         </h3>
                                         <table class="table table-responsive">
                                             <tbody>
@@ -384,8 +384,8 @@
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
                                         <h3>
-                                            Cupcake Recipes
-                                            <span class="menu-price float-right">$20.00</span>
+                                            Recept
+                                            <span class="menu-price float-right">20.00 Kč</span>
                                         </h3>
                                         <table class="table table-responsive">
                                             <tbody>
@@ -432,8 +432,8 @@
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
                                         <h3>
-                                            Cupcake Recipes
-                                            <span class="menu-price float-right">$20.00</span>
+                                            Recept
+                                            <span class="menu-price float-right">20.00 Kč</span>
                                         </h3>
                                         <table class="table table-responsive">
                                             <tbody>
@@ -480,8 +480,8 @@
                                     </div>
                                     <div class="menu__item margin-left-big float-left ">
                                         <h3>
-                                            Cupcake Recipes
-                                            <span class="menu-price float-right">$20.00</span>
+                                            Recept
+                                            <span class="menu-price float-right">20.00 Kč</span>
                                         </h3>
                                         <table class="table table-responsive">
                                             <tbody>
@@ -531,11 +531,11 @@
             <div class="book-table--overlay text-center padding-bigger">
                 <div class="container">
                     <h2 class="padding-big">
-                        BOOK A TABLE NOW !
+                        REZERVUJ SI STŮL !
                     </h2>
                     <a href="#">
                         <button type="button" class="btn btn-primary btn--order padding-right-big padding-left-big">
-                            BOOK NOW
+                            REZERVOVAT
                         </button>
                     </a>
                 </div>
@@ -543,8 +543,8 @@
         </div>
         <div id="gallery" class="gallery padding-top-bigger padding-bottom-bigger">
             <div class="container">
-                <h2>
-                    Gallery
+                <h2 class="padding-top">
+                    Galerie
                 </h2>
                 <div class="row">
                     <div class="col-sm-3 no-padding">
@@ -612,13 +612,13 @@
     <footer id="contact" class="footer">
         <div class="footer--overlay padding-top-bigger text-center">
             <div class="container">
-                <div class="row">
+                <div class="row padding-top-bigger">
                     <div class="col-sm-12">
                         <img data-src="images/header/main_logo.png" alt="">
                     </div>
                     <div class="col-sm-12 margin-top-big">
                         <span>
-                            20, floor, Queenslad Victoria Building. 60 california street california USA
+                            Varhulíkové 123/45, Holešovice, 111 12 Praha 7
                         </span>
                     </div>
                     <div class="col-sm-12 margin-top-big">

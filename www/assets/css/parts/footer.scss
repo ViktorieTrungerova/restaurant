@@ -2,12 +2,12 @@
   background-image: url("../../images/footer/photo-45.jpeg");
   @include bg-settings;
   width: 100%;
-  min-height: 500px;
+  min-height: 700px;
   color: $white;
 
   &--overlay{
     width: 100%;
-    min-height: 500px;
+    min-height: 700px;
     background-color: $color-overlay-darker;
 
     .footer__list{
