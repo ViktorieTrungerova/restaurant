@@ -610,7 +610,7 @@
     <!--end content-->
     <!--footer-->
     <footer id="contact" class="footer">
-        <div class="footer--overlay padding-top-bigger text-center">
+        <div class="footer--overlay padding-top-bigger padding-bottom-bigger text-center">
             <div class="container">
                 <div class="row padding-top-bigger">
                     <div class="col-sm-12">
