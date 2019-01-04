@@ -538,6 +538,11 @@ currently-unhandled@^0.4.1:
   dependencies:
     array-find-index "^1.0.1"
 
+dargs@^5.1.0:
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/dargs/-/dargs-5.1.0.tgz#ec7ea50c78564cd36c9d5ec18f66329fade27829"
+  integrity sha1-7H6lDHhWTNNsnV7Bj2Yyn63ieCk=
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.yarnpkg.com/dashdash/-/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -1131,6 +1136,18 @@ gulp-cssmin@^0.2.0:
     gulp-util "~2.2.0"
     map-stream "0.0.4"
     temp-write "~0.1.0"
+
+gulp-install@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/gulp-install/-/gulp-install-1.1.0.tgz#9386b46cb4669b47257b6adf4e3ea2e83c928a1a"
+  integrity sha1-k4a0bLRmm0cle2rfTj6i6DySiho=
+  dependencies:
+    dargs "^5.1.0"
+    gulp-util "^3.0.7"
+    lodash.groupby "^4.6.0"
+    p-queue "^1.0.0"
+    through2 "^2.0.3"
+    which "^1.2.14"
 
 gulp-rename@~1.1.0:
   version "1.1.0"
@@ -1862,6 +1879,11 @@ lodash.escape@~2.4.1:
     lodash._reunescapedhtml "~2.4.1"
     lodash.keys "~2.4.1"
 
+lodash.groupby@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
+  integrity sha1-Cwih3PaDl8OXhVwyOXg4Mt90A9E=
+
 lodash.isarguments@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
@@ -2376,6 +2398,11 @@ osenv@0, osenv@^0.1.4:
   dependencies:
     os-homedir "^1.0.0"
     os-tmpdir "^1.0.0"
+
+p-queue@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/p-queue/-/p-queue-1.2.0.tgz#639cb8b07270c15b71d7a6446a8e30414f3c96d1"
+  integrity sha1-Y5y4sHJwwVtx16ZEao4wQU88ltE=
 
 parse-filepath@^1.0.1:
   version "1.0.2"

@@ -1,121 +1,109 @@
-.change{
+.change {
     position: fixed;
     top: 0;
     background-color: $color-overlay-darker;
 }
-.top-area{
+
+.top-area {
     background-image: url("../../images/header/cooking.jpg");
     @include bg-settings;
     width: 100%;
 
-    &--overlay{
+    &__overlay {
         width: 100%;
         background-color: $color-overlay;
     }
+}
 
-    #nav-main__collapse{
-        font-size: 14px;
-        font-weight: bold;
+#nav-main__collapse {
+    font-size: 14px;
+    font-weight: bold;
 
-        .nav-item{
+    .nav-item {
         border-top:3px solid transparent;
-        }
+    }
 
-        .active{
-            border-top: 3px solid $color-buttons;
+    .active {
+        border-top: 3px solid $color-buttons;
+    }
 
-            a{
-                color: $color-buttons-text;
-            }
-        }
-        ul li a{
+    .active a {
+        color: $color-buttons-text;
+    }
+
+    ul li a {
+        color: $white;
+    }
+
+    ul li a:hover {
+        color: $color-buttons-text;
+        transition: 0.5s ease;
+    }
+}
+
+.header__nav-contact {
+    width: 100%;
+    border-bottom: 1px solid $color-line;
+    max-height: 45px;
+    font-size: 14px;
+
+    .list li {
+        height: 43px;
+
+        a {
             color: $white;
-
-            &:hover{
-                color: $color-buttons-text;
-                transition: 0.5s ease;
-            }
         }
 
+        &:hover {
+            background: $white !important;
+            border-color: $white !important;
+            transition: .9s ease;
+        }
 
+        &:hover a {
+                color: $color-buttons-text !important;
+        }
+    }
+
+    .contact-list li a {
+        color: $white;
     }
 }
 
-.header{
-    &--nav-contact{
-        width: 100%;
-        border-bottom: 1px solid $color-line;
-        max-height: 45px;
-        font-size: 14px;
+.header__nav-main {
+    z-index: 999;
+    width: 100%;
 
-        .list{
-            li {
-                height: 43px;
+    .navbar-toggler {
+        border: 1px solid $white;
 
-
-                a{
-                    color: $white;
-                }
-
-                &:hover {
-                    background: $white !important;
-                    border-color: $white !important;
-                    transition: .9s ease;
-                    a{
-                        color: $color-buttons-text !important;
-                    }
-                }
-            }
-        }
-
-        .contact-list{
-            li a {
-                color: $white;
-            }
-        }
-    }
-
-    &--nav-main{
-        z-index: 999;
-        width: 100%;
-
-        .navbar-toggler{
-            border: 1px solid $white;
-
-            .navbar-toggler-icon{
-                color: $white;
-            }
-        }
-    }
-
-    &--introduction{
-        .pogoSlider{
-            min-height: 700px;
-
-            .pogoSlider-slide{
-                h1{
-                    text-align: center;
-                    color: $white;
-                    font-family: 'Dancing Script', cursive;
-                    font-size: 80px;
-                }
-            }
-
-            .pogoSlider-nav{
-                display: none !important;
-            }
+        .navbar-toggler-icon {
+            color: $white;
         }
     }
 }
 
+.pogoSlider {
+    min-height: 700px;
 
+    .pogoSlider-slide h1 {
+        text-align: center;
+        color: $white;
+        font-family: 'Dancing Script', cursive;
+        font-size: 80px;
+    }
+
+    .pogoSlider-nav {
+        display: none !important;
+    }
+}
 
 /**
  * Media header
  */
 @media only screen and (max-width: 767px) {
 
-    .navbar-hidden-item{
+    .navbar-hidden-item {
         display: none;
     }
 }

@@ -1,11 +1,11 @@
-@mixin bg-settings{
+@mixin bg-settings {
   background-repeat: no-repeat, repeat;
   background-position: center;
   background-attachment: fixed;
   background-size:cover;
 }
 
-@mixin h2-title{
+@mixin h2-title {
   text-align: center;
   color: $color-buttons-text;
   font-family: 'Dancing Script', cursive;

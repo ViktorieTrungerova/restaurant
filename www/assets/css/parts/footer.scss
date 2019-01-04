@@ -1,41 +1,41 @@
-.footer{
+.footer {
   background-image: url("../../images/footer/photo-45.jpeg");
   @include bg-settings;
   width: 100%;
   color: $white;
 
-  &--overlay{
+  &__overlay {
     width: 100%;
     background-color: $color-overlay-darker;
+  }
+}
 
-    .footer__list{
-      li a {
-        color: $white;
-        font-size: 20px;
+.back-to-top {
+  background-color: $color-buttons;
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 10000;
 
-        &:hover{
-          color: $color-buttons-text;
-          transition: 0.9s ease;
-        }
-      }
-    }
+  a {
+    color: $white;
+  }
 
-    .back-to-top{
-      background-color: $color-buttons;
-      width: 60px;
-      height: 60px;
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 10000;
+  a:hover {
+      color: $white;
+  }
+}
 
-      a{
-        color: $white;
+.footer-list {
+  li a {
+    color: $white;
+    font-size: 20px;
+  }
 
-        &:hover{
-          color: $white;
-        }
-      }
-    }
+  li a:hover {
+      color: $color-buttons-text;
+      transition: 0.9s ease;
   }
 }
